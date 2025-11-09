@@ -1,5 +1,5 @@
 {
-  "name": "my-portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,7 +30,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://sanjay053.github.io/my-portfolio",
+  "homepage": "https://sanjay053.github.io/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
