@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Global Scrollbar Style */
+::-webkit-scrollbar {
+  width: 10px;
+  /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* background of track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #46e2e5, #06b6d4);
+  /* thumb color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #38caad, #0891b2);
+  /* hover effect */
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4f46e5 #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, * {
+  cursor: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.cursor-inner,
+.cursor-outer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 999999;
+  transform: translate(-50%, -50%);
+}
+
+/* Inner small dot */
+.cursor-inner {
+  width: 8px;
+  height: 8px;
+  background: #4f46e5;
+  border-radius: 50%;
+}
+
+/* Outer ring */
+.cursor-outer {
+  width: 32px;
+  height: 32px;
+  border: 2px solid rgba(79, 70, 229, 0.6);
+  border-radius: 50%;
+}
+
+.perspective {
+  perspective: 1000px;
+}
