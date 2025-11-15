@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e9c36b07.css",
-    "main.js": "/portfolio/static/js/main.69a81209.js",
+    "main.css": "/portfolio/static/css/main.7a32a41b.css",
+    "main.js": "/portfolio/static/js/main.6d0bf831.js",
     "static/js/453.ad7768ec.chunk.js": "/portfolio/static/js/453.ad7768ec.chunk.js",
-    "static/media/profile.png": "/portfolio/static/media/profile.e32a5c66629701888bf6.png",
+    "static/media/Bulldog_2.png": "/portfolio/static/media/Bulldog_2.1e6c11ce7cc44c0c27fe.png",
+    "static/media/puppy_2.png": "/portfolio/static/media/puppy_2.7de055468b6c70fdad40.png",
+    "static/media/puppy_3.png": "/portfolio/static/media/puppy_3.3ecca12774fecf56f931.png",
+    "static/media/puppy_1.png": "/portfolio/static/media/puppy_1.275b585a75cc1d21129f.png",
+    "static/media/Rottweiler_1.png": "/portfolio/static/media/Rottweiler_1.c154bf4bd6ce783d7826.png",
+    "static/media/Rottweiler_2.png": "/portfolio/static/media/Rottweiler_2.6dd9bb41bef2d24968bd.png",
+    "static/media/Bulldog_1.png": "/portfolio/static/media/Bulldog_1.2e0c524968ddae2f59c8.png",
     "static/media/snow.jpg": "/portfolio/static/media/snow.0566b321010f917a6ce0.jpg",
     "static/media/loading.mp4": "/portfolio/static/media/loading.3e2f1e947ac14eb5f822.mp4",
     "static/media/sanjay_resume.pdf": "/portfolio/static/media/sanjay_resume.b60421791fe72f72b70e.pdf",
+    "static/media/sanjay_overheadphone.jpeg": "/portfolio/static/media/sanjay_overheadphone.f984cf2c2bd7c90f973a.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.e9c36b07.css.map": "/portfolio/static/css/main.e9c36b07.css.map",
-    "main.69a81209.js.map": "/portfolio/static/js/main.69a81209.js.map",
+    "main.7a32a41b.css.map": "/portfolio/static/css/main.7a32a41b.css.map",
+    "main.6d0bf831.js.map": "/portfolio/static/js/main.6d0bf831.js.map",
     "453.ad7768ec.chunk.js.map": "/portfolio/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9c36b07.css",
-    "static/js/main.69a81209.js"
+    "static/css/main.7a32a41b.css",
+    "static/js/main.6d0bf831.js"
   ]
 }
