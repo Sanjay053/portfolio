@@ -10,7 +10,8 @@ import SkillsPage from './Pages/Skill';
 import LoadingPage from './Pages/Loading';
 import NavBar from './Components/Navbar'
 import snow from './Asset/snow.jpg'
-import CustomCursor from "./Components/CustomCursor";
+import Footer from './Components/Footer';
+import ScrollToTop from './feature/scrollToTop';
 
 function App() {
   const [introPage, setIntroPage] = useState(false);
@@ -39,11 +40,10 @@ function App() {
               backgroundImage: `url(${snow})`,
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
-              minHeight: "100vh",
               paddingTop: isSticky ? "80px" : "0px",
             }}
           >
-            <CustomCursor />
+            <ScrollToTop />
             <NavBar setIsSticky={setIsSticky} />
             <Routes>
               <Route path='/' element={<HomePage />} />
@@ -54,6 +54,7 @@ function App() {
               <Route path='*' element={<h1>404 Page Not Found</h1>} />
 
             </Routes>
+            <Footer />
           </div>
         </HashRouter>
       }

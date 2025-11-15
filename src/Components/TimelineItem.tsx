@@ -16,7 +16,12 @@ export const TimelineItem = ({ item }: { item: TimelineItemType }) => {
   return (
     <HStack align="flex-start" gap={4} w="100%">
       {/* Left icon */}
-      <Icon as={icon as React.ElementType} boxSize={6} color="purple.500" mt={1} />
+      <Icon
+        as={icon as React.ElementType}
+        boxSize={6}
+        color="purple.500"
+        mt={1}
+      />
 
       {/* Text Content */}
       <VStack align="flex-start" gap={1} flex={1}>
